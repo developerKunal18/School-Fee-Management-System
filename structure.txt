@@ -1,0 +1,41 @@
+📌 Features
+- Add students
+- View students
+- Search students
+- Add fee structures
+- Collect student fees
+- Generate receipt numbers
+- View payment history
+- Check pending fees
+- Update student information
+- Delete students
+- Generate fee collection reports
+- Generate class-wise reports
+- JSON-based data storage
+
+🛠️ Tech Stack
+- Python
+- JSON
+- Datetime
+- UUID
+- OS
+
+📁 Folder Structure
+school-fee-management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── student_manager.py
+├── fee_manager.py
+├── payment_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── students.json
+│   ├── fees.json
+│   └── payments.json
+│
+├── .gitignore
+└── README.md
